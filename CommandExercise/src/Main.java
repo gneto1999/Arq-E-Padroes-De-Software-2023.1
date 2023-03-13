@@ -5,7 +5,6 @@ public class Main {
     public static void main(String[] args) {
         Invoker ivk = new Invoker();
         Scanner sc = new Scanner(System.in);
-//        char resp = 'n';
 
         while(true) {
             System.out.print("Comando: ");
@@ -36,9 +35,6 @@ public class Main {
                 default:
                     System.out.println("Comando incorreto!!!");
             }
-//            System.out.print("Continuar [s/n]? ");
-//            resp = sc.next().charAt(0);
-//            sc.nextLine();
         }
     }
 }
