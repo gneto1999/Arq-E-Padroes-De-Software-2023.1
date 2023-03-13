@@ -7,7 +7,7 @@ import model.command.UpdateProductCommand;
 
 import java.util.List;
 
-public class ProductService {
+public class Facade {
 
     public static void addProduct(Product product) {
         Invoker.addCommand("Incluir", new AddProductCommand(product));
