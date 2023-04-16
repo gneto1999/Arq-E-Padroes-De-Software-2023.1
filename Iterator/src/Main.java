@@ -8,7 +8,7 @@ public class Main {
         bst.insert(7);
         bst.insert(50);
         bst.insert(12);
-        
+
         Iterator iterator = bst.createIterator();
 
         while(iterator.hasNext()) {
